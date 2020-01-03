@@ -1,0 +1,880 @@
+/* 清除所有元素默认样式 */
+*{
+    margin:0;
+    padding: 0;
+    text-decoration: none;
+    list-style:none;
+}
+.Thebiggest{
+    background: #333333;
+    width: 100%;
+    height: 40px;
+}
+/* 板板属性   宽  高随内容撑开不写    居中 */
+.q{
+    width: 1226px;
+    margin:0 auto;
+    line-height: 40px;
+}
+/* 板板属性结束 */
+
+.w{
+    float: left;  
+}
+.w a:hover{
+    color:white;
+}
+.w span{
+    margin: 0 4px;
+    color: #424242;
+}
+.e{
+    float: right;
+    color: #b0b0b0;
+    font-size: 13px;
+}
+.w a{
+    color: #b0b0b0;
+    font-size: 12px;
+}
+.e a{
+    color: #b0b0b0;
+    
+}
+.shpping{
+    display: block;
+    width: 120px;
+    height: 40px;
+    background:#424242;
+    float: right;
+    text-align:center;
+    line-height: 40px;
+    margin-left: 10px;
+}
+.shpping .shppingtubiao{
+    width: 20px;
+    height: 20px;
+    line-height: 40px;
+    margin-right: 20px;
+    position:absolute;
+    top:10px;
+    right:220px;
+    
+    
+
+}
+/*大包导航*/
+.Navigation{
+    width: 1226px;
+    margin:0 auto;
+    margin-top: 20px;   
+    /* overflow: hidden;  */
+}
+/*x小米图标*/
+.micoin{
+
+    margin-right:100px;
+    float:left;
+}
+.Navigation i{
+    font-size: 60px;
+    color: white;
+}
+/*小米手机*/
+.content{
+    color: black;
+    margin-left: 15px;
+    line-height: 60px;
+    float: left;
+
+}
+.icon-sousuo{
+    text-align: center;
+}
+.Backthere1{
+    width: 70px;
+    height: 50px;
+    border:1px solid #b0b0b0;
+    float:right;
+    text-align: center;
+    
+}
+.sososo{
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+    
+}
+.icon-qicheqianlian-{
+    font-size: 13px;
+    color: #ffffff;
+}
+.Backthere2{
+    width: 245px;
+    height: 50px;
+    border:1px solid #b0b0b0;
+    /* float:right; */
+}
+.banner-box{
+    width:1226px;
+    height:460px;
+    margin:80px auto 10px auto;
+    position:relative;
+}
+.banner-img{
+    width:1226px;
+    height:460px;
+    position:absolute;
+}
+.banner-img img{
+    width:1226px;
+    height:460px;
+    position:absolute;
+}
+.banner-nav{
+    position:absolute;
+    padding:21px 0;
+}
+.banner-nav li{
+    width:234px;
+    height:42px;
+    background: rgba(105,101,101,0.6);
+    color:#fff;
+    padding:0 10px 0 8px;
+}
+.banner-nav li:hover{
+    background-color:orangered;
+}
+.banner-nav li img{
+    width:16px;
+    height:16px;
+    float:right;
+}
+
+.arrow-left{
+    width:41px;
+    height:70px;
+    position:absolute;
+    top:195px;
+    left: 252px;
+    background-image:url("../images图片/arrow-slides.png");
+    background-repeat: no-repeat;
+    background-position:-83px 0;
+}
+.arrow-left:hover{
+    background-position:0 0;
+}
+.arrow-right{
+    width:41px;
+    height:70px;
+    position:absolute;
+    top:195px;
+    right:0;
+    background-image:url("../images图片/arrow-slides.png");
+    background-repeat: no-repeat;
+    background-position:-124px 0;
+}
+.arrow-right:hover{
+    background-position:-41px 0;
+}
+.Flashsales{
+    width: 1226px;
+    margin: 20px auto;
+    overflow: hidden; 
+}
+.one{
+    height: 170px;
+    width: 230px;
+    background-color: #5f5750;
+    float: left;
+    overflow: hidden; 
+    position: relative
+}
+.seckill{
+    float: left;
+    height:85px;
+    width: 76.4px;
+    border:0.1px solid #ffffff;
+    text-align:center;
+    line-height: 145px;
+    font-size: 13px;
+}
+.seckill:hover{
+    color: #ffffff;
+}
+.seckilltup{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+}
+.seckilltup1{
+    position: absolute;
+    top: 15px;
+    left: 95px;
+    width: 40px;
+    height: 40px;
+}
+.seckilltup2{
+    position: absolute;
+    top: 15px;
+    left: 172px;
+    width: 40px;
+    height: 40px;
+}
+.seckilltup3{
+    position: absolute;
+    top: 97px;
+    left: 20px;
+    width: 40px;
+    height: 40px;
+}
+.seckilltup4{
+    position: absolute;
+    top: 97px;
+    left: 93px;
+    width: 40px;
+    height: 40px;
+}
+.seckilltup5{
+    position: absolute;
+    top: 95px;
+    left: 171px;
+    width: 40px;
+    height: 40px;
+}
+
+.two{
+    width: 316px;
+    height: 170px;
+    float:left;
+    margin-left: 16px;
+}
+.China{
+    width: 1226px;
+    margin: 0 auto;
+    /* background-color: black; */
+    overflow:hidden;
+}
+.Purchase{
+    width: 1226px;
+    margin: 0 auto;
+    overflow: hidden;
+
+}
+.pur{
+    margin-top: 40px;
+    font-size: 25px;
+    float: left;
+}
+.kuang{
+    margin-top: 40px;
+    width: 36px;
+    height: 24px;
+    float:right;
+    border: 1px solid #d8d8d8;
+    text-align: center;
+}
+.kuang img{
+    width: 20px;
+    height: 15px;
+    margin-top: 4px;
+}
+.NumberOne{
+    width: 234px;
+    height: 340px;
+    background-color: #f1eded;
+    margin-top:10px;
+    position: relative;
+    float:left;
+    border-top: 1px solid #ff6700;
+}
+.Field{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+.Fielb1{
+    text-align: center;
+    margin-top: 130px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.sh{
+    width: 46px;
+    height: 46px;
+    background: red;
+    margin-left: 25px;
+    float: left;
+    font-size: 20px;
+    color: #ffffff;
+    line-height: 50px;
+    text-align: center;
+}
+.Lightning{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left:66px;
+    bottom:140px
+}
+.Fielb{
+    text-align: center;
+    margin-top: 80px;
+}
+.Three{
+    width: 234px;
+    height: 340px;
+    background-color: white;
+    margin-top:10px;
+    position: relative;
+    float: left;
+    margin-left: 14px;
+    border-top: 1px solid #ff6700;
+}
+.Toothbrush{
+    width: 234px;
+    height: 240px;   
+}
+p{
+    text-align: center;
+    line-height: 23px;
+}
+.Teeth{
+    color: black;
+    font-size: 14px;
+}
+.major{
+    color:#b0b0b0;
+    font-size: 12px;
+}
+.oneyuan{
+    color: #ff6709;
+    font-size: 13px;
+    line-height: 30px;
+}
+del{
+    text-decoration:line-through;
+}
+.por5g{
+    width: 1226px;
+    height: 120px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+/*手机区开始*/
+.phone-word{
+    margin-top: 10px;
+    font-size: 25px;
+    /*float: left;*/
+}
+.phone-left{
+    width:234px;
+    height:614px;
+    float:left;
+}
+.miphone-box li{
+    width:234px;
+    height:260px;
+    text-align:center;
+    float:left;
+    margin:0 0 14px 14px;
+    padding:20px 0;
+    background:#fff;
+}
+.miphone-box li:hover{
+    box-shadow: 0 0 20px 1px gray;
+    transform:translateY(-10px);
+    transition:80ms;
+}
+.miphone-box li .img{
+    width:160px;
+    height:160px;
+}
+.phoneredmi{
+    width:160px;
+    height:160px;
+}
+.title{
+    font-size:14px;
+    font-weight:400;
+    color:#333;
+    line-height:21px;
+    text-align:center;
+}
+.desc{
+    margin:0 10px 10px;
+    height:18px;
+    font-size:12px;
+    color:#b0b0b0;
+    line-height:21px;
+}
+.price{
+    margin: 0 10px 10px;
+    text-align:center;
+    color:#ff6700;
+    line-height:21px;
+}
+.phoneword{
+    float:left;
+}
+.jiaju-left{
+    width:234px;
+    height:614px;
+    float:left;
+    margin-right:8px;
+}
+/*手机区结束*/
+.Television{
+    width: 1226px;
+    height: 120px;
+    margin: 25px 0 10px 0;
+}
+.Householdappliances{
+    width: 1226px;
+    margin: 20px auto;
+    overflow: hidden;
+    position: relative;
+}
+.house{
+    font-size: 25px;
+    float: left;
+}
+.hot{
+    font-size: 22px;
+    float: right;
+}
+.Audiovisual{
+    font-size: 22px;
+    float: right;
+    margin-right: 50px;
+}
+.gg{
+    width: 60px;
+    height: 3px;
+    background:#808080;
+    position: absolute;
+    bottom: 1px;
+    right: 129px;
+}
+.bag{
+    width: 1226px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.heyboos{
+    float: left;
+    text-align: center;
+}
+.Tommyhouse{
+    font-size: 25px;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    font-weight:900;
+
+}
+.GotIt{
+    font-size: 17px;
+    position: absolute;
+    top: 65px;
+    left: 8px;
+    color: rosybrown;
+
+}
+.Money{
+    font-size: 20px;
+    position: absolute;
+    top: 100px;
+    left: 80px;
+    color: rosybrown;
+
+}
+.heyboos1{
+    float: left;
+    text-align: center;
+    position: relative;
+}
+.Tommyhouse1{
+    font-size: 25px;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+    font-weight:900;
+}
+.GotIt1{
+    font-size: 17px;
+    position: absolute;
+    top: 65px;
+    left: 50px;
+    color: rosybrown;
+
+}
+.Money1{
+    font-size: 20px;
+    position: absolute;
+    top: 100px;
+    left: 45px;
+    color: rosybrown;
+
+}
+
+.AirConditioning{
+    margin: 0 7px 3px;
+    text-align: center;
+    float: right;
+    width: 233px;
+    height: 300px;
+    background-color: white;
+}
+.AirConditioning:hover{
+    box-shadow: 0 0 5px #d8d8d8;
+    transform:translateY(-2px)
+}
+
+
+.wang{
+    font-size: 16px;
+}
+.bian{
+    font-size: 12px;
+    line-height: 30px;
+}
+.yuano{
+    color: violet;
+    line-height: 30px;
+}
+.AirConditionin{
+    margin: 0 7px 3px;
+    text-align: center;
+    width: 233px;
+    height: 300px;
+    float: right;
+    background-color: #f5f5f5;
+    overflow: hidden;
+}
+.wan{
+    width: 234px;
+    height: 155px;
+    background-color: white;
+    float: left;
+    margin-bottom: 10px;
+}
+.wan:hover{
+    box-shadow: 0 0 5px #d8d8d8;
+    transform:translateY(-2px)
+}
+.bia:hover{
+    box-shadow: 0 0 5px #d8d8d8;
+    transform:translateY(-2px)
+}
+.op{
+    float: left;
+    margin: 50px 0 0 10px;
+    font-size: 15px;
+}
+.po{
+    float: right;
+    margin-top: 25px;
+}
+.op2{
+    margin: 0 0 0 -75px;
+}
+.op3{
+    margin: 0 0 0 -20px;
+}
+.bia{
+    width: 234px;
+    height: 150px;
+    background-color: white;
+    position: relative;
+    float: left;
+}
+.biop{
+    float: left;
+    position: absolute;
+    left: 20px;
+    top:50px;
+
+}
+.bipot{
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    right: 30px;
+    top: 50px;
+}
+.bipo{
+    position: absolute;
+    left: 30px;
+    top:80px;
+
+}
+.backtherd{
+    float: right;
+    width: 245px;
+    height: 52px;
+    outline: none;
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+.tui{
+    width: 1226px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+.youjt{
+    width: 28px;
+    height: 28px;
+    float: right;
+    margin-left: 10px;
+}
+.blacksp{
+    width: 1226px;
+    margin: 0 auto;
+    overflow: hidden;
+    
+
+}
+.MIX{
+    width: 296px;
+    height: 285px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    position: relative;
+    float: left;
+    background: white;
+    margin-bottom: 20px;
+}
+.video-bottom{
+    width: 296px;
+    height: 180px;
+}
+.jiantou1{
+    width: 55px;
+    height: 35px;
+    border-radius: 30%;
+    position: absolute;
+    top: 130px;
+    left: 20px;
+    border:3px solid #ffffff;
+}
+.jaintou2{
+    width: 30px;
+    height: 30px;
+}
+.jiantou1:hover{
+    background: #ff6700;
+    border:3px solid #ff6700;
+    transition: 0.2s;
+
+}
+.kk{
+    width: 14px;
+    height: 285px;
+    background: white;
+    float: left;
+}
+.MIX:hover{
+    box-shadow: 0 0 5px #d8d8d8;
+    transform:translateY(-2px)
+}
+.baozi{
+    width: 1226px;
+    margin: 0 auto;
+}
+.shug{
+    width: 1px;
+    height: 30px;
+    background: black;
+    float: left;
+    margin: 36px 47px 0 47px;
+}
+.dbdb{
+    width: 1226px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.kuaile{
+    /* width: 240px; */
+    text-align: center;
+    line-height: 100px;
+    font-size: 20px;
+    float: left;
+
+}
+.hrhen{
+    width: 1226px;
+    height: 2px;
+    background: black;
+    float: left;
+}
+.zuihoul{
+    width: 1226px;
+    margin: 0 auto;
+    margin-top: 50px;
+    overflow: hidden;
+    
+}
+.zhl{
+    width: 150px;
+    height: 190px;
+    background:white;
+    float: left;
+    margin-right: 10px;
+}
+.n{
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.zhl .b{
+    font-size: 13px;
+    margin-bottom: 15px;
+    color: #b0b0b0;
+
+}
+.dakuanb{
+    width: 1px;
+    height: 180px;
+    background: black;
+    float: left;
+}
+.dianhua4{
+    width: 265px;
+    height: 190px;
+    /* background: black; */
+    float: right;
+    text-align: center;
+}
+.llkk1{
+    font-size: 30px;
+    color: orange;
+}
+.rengongkf{
+    width:200px;
+    height: 50px;
+    border: 2px solid orange;
+    margin: 20px  auto ;
+    font-size: 20px;
+    line-height: 45px;
+    color: orange;
+}
+.rengongkf:hover{
+    color: white;
+    background: orange;
+    transition: 0.2s;
+}
+.zdzh{
+    width: 1226px;
+    margin: 0 auto;
+    overflow: hidden;
+    margin-top: 20px;
+}
+.wenzi{
+    width: 1100px;
+    float: right;
+    
+
+}
+.jiew{
+    
+    width: 1226px;
+    margin: 40px    auto;
+    font-size: 25px;
+    text-align: center;
+    font-family: 楷体;
+    font-weight: 500;
+    color: #d8adad;
+}
+.mitud{
+    width: 100px;
+    height: 100px;
+    background: orange;
+    float: left;
+}
+.mitud i{
+    font-size: 100px;
+    color: white;
+}
+.zhygt{
+    width: 85px;
+    height: 28px;
+}
+.baozi i{
+    font-size: 26px;
+
+}
+.jinicp{
+    font-size: 12px;
+    color: #b0b0b0;
+}
+.erbao{
+    /* width: 1226px; */
+    background: #f5f5f5;
+    /* overflow: hidden; */
+}
+
+
+
+
+
+.body{
+    position: relative;
+}
+.gudingl{
+    width: 60px;
+    background: aliceblue;
+    position: fixed;
+    right: 0px;
+    bottom: 30px;
+}
+.gudingl p{
+    font-size: 10px;
+}
+.CellPhoneAPP{
+    width: 60px;
+    height: 50px;
+    background: beige;
+    text-align: center;
+    padding-top: 10px;
+}
+.icon-phone_icon{
+    font-size: 20px;
+}
+.icon-icongerenzhongxin-01{
+    font-size: 20px;
+}
+.icon-shouhoufuwufei{
+    font-size: 20px;
+}
+.icon-kefu{
+    font-size: 20px;
+}
+.icon-gouwuche{
+    font-size: 20px;
+}
+.CellPhoneAPP1{
+    width: 60px;
+    height: 50px;
+    background: beige;
+    text-align: center;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.icon-huidingbu{
+    font-size: 20px;
+}
+
+
+
+    
+
+
+
